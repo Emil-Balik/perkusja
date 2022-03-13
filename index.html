@@ -1,32 +1,125 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!-- <html lang="en" dir="ltr"> -->
 
 <head>
   <meta charset="utf-8">
-  <title>Perkusja</title>
+
+  <title>Cat drums</title>
+
+  <meta name="description" content="Przeglądarkowy symulator perkusji">
+  <meta name="keywords" content="perkusja, drum kit, games, gra, kot, cat">
+  <meta name="author" content="Emil">
+  <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Rock+Salt&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
 
 <body>
 <!-- Thank Angela Yu for this challange (The Complete 2022 Web Development Bootcamp - Section 13) () -->
   <h1 id="title">Perkusja</h1>
 
-    <div class="set">
-      <button class="w drum">w</button>
-      <button class="a drum">a</button>
-      <button class="s drum">s</button>
-      <button class="d drum">d</button>
-      <button class="j drum">j</button>
-      <button class="k drum">k</button>
-      <button class="l drum">l</button>
-    </div>
+  <body>
+  <section>
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a class="navbar-brand fs-1 px-4 logo-font" href="#">mrau.io </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#game">Game</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">High score</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </section>
+    
+  <section>
+  <div class="container c-color">
 
-  <div class="footer">
-    <h3>Cats drums and rock n 🐾 roll!</h3>
-  </div>
+      <header>
+        <h1>Cats drums and rock n 🐾 roll!</h1>
+          </header>
+
+      <figure>
+        <img src="test2.png" class="img-fluid" alt="Mrau">
+      </figure>
+
+    </div>
+  </section>
+        
+        <main>
+    <section id="game">
+      <div class="container-fluid">
+        <h1>Play the game!</h1>
+        <div class="row">
+       <div class="col-sm-4 offset-sm-4">
+            <button class="w drum">w</button>
+          </div>
+          <div class="w100"></div>
+          <div class="col-sm-4">
+            <button class="a drum">a</button>
+          </div>
+          <div class="col-sm-4">
+            <button class="s drum">s</button>
+          </div>
+          <div class="col-sm-4">
+            <button class="d drum">d</button>
+          </div>
+          <div class="w100"></div>
+          <div class="col-sm-4">
+            <button class="j drum">j</button>
+          </div>
+          <div class="col-sm-4">
+            <button class="k drum">k</button>
+          </div>
+          <div class="col-sm-4">
+            <button class="l drum">l</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section>
+    <footer class="mrau">
+
+      <div class="container-fluid">
+        <div class="font-awesome">
+          <i class="fab fa-twitter me-3"></i>
+          <i class="fab fa-facebook-f me-3"></i>
+          <i class="fab fa-instagram me-3"></i>
+          <!-- <i class="fab fa-tiktok"></i> -->
+          <i class="fas fa-envelope"></i>
+        </div>
+        <p class="footer">© Copyright 2022 K. Admin</p>
+      </div>
+    </footer>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="index.js" charset="utf-8"></script>
-  </div>
+
 </body>
 
 </html>
