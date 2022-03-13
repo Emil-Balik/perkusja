@@ -1,14 +1,44 @@
 body {
+  background-color: #283149;
+  background-image: url(pawwall.png);
+  /* https://www.pngegg.com */
+  background-repeat: repeat;
+  font-family: 'Montserrat', serif;
   text-align: center;
-  background-image: url(Mrauuu.jpg);
 }
 
-#title {
-  margin: 0;
-  padding: 0;
-  font-size: 5rem;
-  color: #DA0463;
-  font-family: "Arvo";
+/* Navbar */
+.navbar-brand {
+  /* font-family: 'Rock Salt', sans-serif;
+  font-style: oblique;
+  font-weight: 900;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.c-color {
+  background-color: #404B69;
+  /* opacity: 0.8; */
+  border: solid 0.3px;
+  padding-bottom: 1rem;
+}
+
+#game {
+
+}
+
+h1 {
+  font-weight: 900;
+  color: oldlace;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 1rem;
+}
+
+.logo-font {
   text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
@@ -40,43 +70,35 @@ body {
   background-image: url("images/kick.png");
 }
 
-.set {
-  margin: 10% auto;
-  position: relative;
-}
-
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
 }
 
 .drum {
-  outline: none;
-  border: 10px solid #404B69;
+  border: 8px solid #404B69;
   font-size: 5rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #DA0463;
-  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
-  border-radius: 15px;
-  display: inline-block;
+  border-radius: 10px;
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 10px;
-  background-color: white;
+  margin: 1rem;
+}
+
+.mrau {
+  padding-top: 3rem;
+  /* height: 6rem; */
+  margin-top: 2rem;
+  background-color: #404B69;
+  background-image: url(whiteMrau.png);
+  background-repeat: repeat-x;
+  border: solid 0.3px;
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  height: 10%;
-  width: 100%;
-  color: #DA0463;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  background-color: #283149;
-  font-family: sans-serif;
-  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #8f8f8f;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
