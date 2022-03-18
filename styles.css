@@ -1,10 +1,10 @@
 body {
-  background-color: #283149;
-  background-image: url(pawwall.png);
-  /* https://www.pngegg.com */
-  background-repeat: repeat;
+  background-color: #E0DDAA;
   font-family: 'Montserrat', serif;
   text-align: center;
+  background-image: url(slady.png), url(whiteMrau.png);
+  background-repeat: no-repeat, round;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .navbar-brand {
@@ -14,25 +14,56 @@ body {
 
 .nav-link {
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 700;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+.c-color {
+  background-color: #EEEDDE;
 }
 
 #game {
-
+  padding: 2rem;
+  background-color: #789395;
+  background-image: url(test3.png), url(pawwall.png);
+  /* https://www.pngegg.com */
+  background-position: center;
+  background-repeat: no-repeat, repeat;
 }
 
 h1 {
   font-weight: 900;
-  color: oldlace;
+  color: #FF6464;
   font-size: 3rem;
   line-height: 1.5;
 }
 
+h1:hover {
+  color: #B33030;
+}
+
 h2 {
-  font-weight: 700;
-  color: oldlace;
+  font-weight: 900;
+  color: #FFE162;
   font-size: 2rem;
-  line-height: 1.5;}
+  line-height: 1.5;
+}
+
+h3:hover {
+  opacity: 0.5;
+}
+
+h2:hover {
+  color: #B8405E
+}
+
+h3 {
+  font-weight: 700;
+  color: #7CD1B8;
+}
 
 .logo-font {
   text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
@@ -72,23 +103,46 @@ h2 {
 }
 
 .drum {
-  border: 8px solid #404B69;
-  font-size: 4rem;
+  border: 6px solid #557B83;
+  font-size: 3rem;
   border-radius: 8px;
   width: 9rem;
   height: 9rem;
+  text-shadow: 3px 0 #A267AC;
   text-align: center;
+  margin: 3px;
+  color: #D67D3E;
+  background-color: #white;
+}
+
+.left-position {
+  display: flex;
+  justify-content: start;
+}
+
+.right-position {
+  display: flex;
+  justify-content: end;
+}
+
+.invisible {
+  width: 9rem;
+  height: 9rem;
 }
 
 .mrau {
-  background-color: #404B69;
-  background-image: url(whiteMrau.png);
-  background-repeat: repeat-x;
-  border: solid 0.3px;
+  background-color: #203239;
+  background-image: url(pawwall.png);
+  background-repeat: repeat;
+  border: solid 0.01px;
+}
+
+.font-awesome {
+  color: white;
 }
 
 .footer {
-  color: #8f8f8f;
+  color: white;
   font-size: 1.2rem;
   font-weight: 400;
 }
